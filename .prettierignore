@@ -1,0 +1,9 @@
+cache
+.cache
+package.json
+package-lock.json
+public
+CHANGELOG.md
+README.md
+.yarn
+next-env.d.ts

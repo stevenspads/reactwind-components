@@ -1,10 +1,8 @@
-# Reactwind Component Library
+# Reactwind Components
 
-A library of reusable React components that can be copied into your next project. 
+Reusable React components that can be copied into your next project. Components are styled using [TailwindCSS](https://tailwindcss.com) and have support for dark mode.
 
-Components are styled using [TailwindCSS](https://tailwindcss.com) and have support for dark mode.
-
-The reusable component library can be found in the `components/UI` folder.
+The reusable components can be found in the `components/UI` folder.
 
 ## Storybook
 

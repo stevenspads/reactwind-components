@@ -20,7 +20,7 @@ export const parameters = {
 
 // Inter font for Storybook
 
-import { Inter } from '@next/font/google';
+import { Inter } from 'next/font/google';
 import { withTailwindTheme } from "./withTailwindTheme.decorator";
 
 const inter = Inter({ subsets: ['latin'] });

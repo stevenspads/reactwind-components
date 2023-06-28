@@ -1,24 +1,22 @@
 import type { AppProps } from "next/app"
-import { Inter as FontSans } from "@next/font/google"
 import { ThemeProvider } from "next-themes"
 
 import "@/styles/globals.css"
-
-const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-})
+import { fontSans } from "@/lib/fonts"
+import { cn } from "@/lib/utils"
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <style jsx global>{`
-				:root {
-					--font-sans: ${fontSans.style.fontFamily};
-				}
-			}`}</style>
-      <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-        <Component {...pageProps} />
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <main
+          className={cn(
+            "min-h-screen bg-background font-sans antialiased",
+            fontSans.variable
+          )}
+        >
+          <Component {...pageProps} />
+        </main>
       </ThemeProvider>
     </>
   )

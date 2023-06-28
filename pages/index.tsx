@@ -15,10 +15,13 @@ export default function Home() {
         </header>
         <div className="space-y-6">
           <p>
-            Reactwind is a library of reusable React components that can be copied into your next project.
+            Reactwind is a library of reusable React components that can be
+            copied into your next project.
           </p>
           <p>
-            Components are styled using <a href="https://tailwindcss.com">TailwindCSS</a> and have support for dark mode.
+            Components are styled using{" "}
+            <a href="https://tailwindcss.com">TailwindCSS</a> and have support
+            for dark mode.
           </p>
           <p>
             Components are previewable with{" "}

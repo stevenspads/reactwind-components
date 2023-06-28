@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="mt-24 container mx-auto text-center">
+    <footer className="container mx-auto mt-24 text-center">
       <p>
         &copy; <a href="https://lumin8media.com">Lumin8</a>. Use Reactwind
         freely.

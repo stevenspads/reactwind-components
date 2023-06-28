@@ -43,10 +43,17 @@ export const SizeLarge = {
   },
 }
 
-export const AnchorLink = {
+export const Secondary = {
   args: {
-    children: "Anchor",
-    href: "/",
+    children: "Button",
+    variant: "secondary",
+  },
+}
+
+export const Destructive = {
+  args: {
+    children: "Button",
+    variant: "destructive",
   },
 }
 
@@ -57,16 +64,10 @@ export const Outline = {
   },
 }
 
-export const Gradient = {
+export const AnchorLink = {
   args: {
-    children: "Button",
-    variant: "gradient",
-  },
-}
-
-export const GradientShadow = {
-  args: {
-    children: "Button",
-    variant: "gradientShadow",
+    children: "Anchor",
+    href: "/",
+    variant: "link",
   },
 }
